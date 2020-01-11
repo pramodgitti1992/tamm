@@ -99,7 +99,7 @@ class App extends React.Component {
       });
     } else {
       const isValid = this.isCardValid(this.state.tableObj.card);
-      if (isValid) {
+      if (isValid && !this.state.isValidLimit) {
         axios.post('http://localhost:8080/addCreditCard', this.state.tableObj).then(data => {
           this.setState({
             tableData: data.data
