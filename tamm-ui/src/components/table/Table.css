@@ -20,3 +20,7 @@ table {
       padding-top: 25px;
       display: flex;
   }
+
+  .no-data{
+    font-size: 1.1em;
+  }

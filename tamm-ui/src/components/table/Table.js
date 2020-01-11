@@ -14,7 +14,7 @@ function Table(props) {
                 </tr>
             </thead>
             <tbody>
-            {props.data.map((item, i) => (
+            {props.data.length ? props.data.map((item, i) => (
                     <tr key={i}>
                         <td>
                             {item.name}
@@ -30,7 +30,9 @@ function Table(props) {
                         </td>
                     </tr>
                 )
-            )}
+            ): <tr>
+                <td colSpan="4" className="no-data">No records</td>
+                </tr>}
             </tbody>
             
 
