@@ -1,0 +1,47 @@
+.App {
+  margin: 20px;
+}
+
+.inputfield{
+  padding-bottom: 20px;
+}
+
+h1{
+  font-weight: 400;
+    font-size: 1.7em;
+}
+
+h2{
+  font-weight: 400;
+  font-size: 1.4em;
+}
+
+.add-btn {
+  width: 60px;
+  height: 30px;
+  background: #ccc8c8;
+  color: #fff;
+  line-height: 28px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.error-msg {
+  padding: 0.6em;
+  border: 2px solid red;
+  background: #ad232357;
+  border-radius: 5px;
+  margin-bottom: 1em;
+}
+
+.cancel-icon {
+  float: right;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.err-msg{
+  color: red;
+  font-size: .9em
+}
+

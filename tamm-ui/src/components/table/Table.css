@@ -1,0 +1,22 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 0.7em;
+  }
+  
+  td, th {
+    border: 1px solid #000000;
+    text-align: center;
+    padding: 8px;
+    height: 22px;
+  }
+  
+  thead{
+      background-color: #ccc8c8;
+  }
+
+  .tableContent{
+      padding-top: 25px;
+      display: flex;
+  }
